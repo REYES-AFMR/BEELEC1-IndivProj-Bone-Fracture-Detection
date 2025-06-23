@@ -1,6 +1,8 @@
 # Classification of X-rays With and Without Fractures Using Feature Extraction and a Convolutional Neural Network
 Bone fractures can occur in different regions of the body with varying severity and form depending on the type of injury. Some particular fractures, such as scapular and radial head elbow fractures, are difficult to spot, which could cause delays in diagnosis and, in effect, treatment. The goal of this study is to detect and classify different fractures in a variety of regions in the body making use of an extensive dataset of X-rays across all body regions. The data used is a compilation of three bone fracture datasets – Bone Break Classifier Dataset, bone_fracture, and fracture – made by Mohan Kumar, Abdelaziz Faramawy, and Harsha Arya respectively, with the datasets compiled into one named Bone Fracture Multi-Region X-ray Data by Madushani Rodrigo. These images were preprocessed in order to ensure the contrast between the bone and the fracture is visible. Masking was used to differenciate the bone from the background and fed into a convolutional neural network for classification. After training and validating, the network was able to classify the test set with 99.21% accuracy. This could help with the workflow of radiologists and reduce delays in diagnosis. This would be especially useful in emergency radiology for trauma patients.
 
+*NOTE: Dataset was not able to be uploaded to GitHub due to the large volume of data. To access the dataset used, please see source 8.*
+
 ### References
 
 [1] A. Pinto et al., “Traumatic fractures in adults: missed diagnosis on plain radiographs in the Emergency Department.,” PubMed, vol. 89, no. 1-S, pp. 111–123, Jan. 2018, doi: 10.23750/abm.v89i1-s.7015.
